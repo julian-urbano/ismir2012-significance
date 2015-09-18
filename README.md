@@ -9,21 +9,21 @@ A [single ZIP file](https://github.com/julian-urbano/ismir2012-significance/arch
 ### Files
 
  * `template/` HTML task template (live version available [here](http://julian-urbano.github.io/ismir2012-significance/template/)).
- * `workers.csv` CSV file with information about all workers, whether accepted or rejected.
- * `answers.csv` CSV file with all answers accepted by Crowdflower (except gold examples).
+ * `data/workers.csv` CSV file with information about all workers, whether accepted or rejected.
+ * `data/answers.csv` CSV file with all answers accepted by Crowdflower (except gold examples).
 
 ### Format
 
-Some of the columns in the data table are (N goes from 1 to 5):
+Some of the columns in the data table are (`N` goes from 1 to 5):
 
  * `query` ID of the query clip.
- * `d<N><X>` ID of the <N>-th document retrieved by service <X>.
- * `b<N><X>` Broad score given to the <N>-th document retrieved by service <X>.
- * `f<N><X>` Fine score given to the <N>-th document retrieved by service <X>.
- * `agb<X>` AG@5 score with Broad judgments achieved by service <X>.
- * `agf<X>` AG@5 score with Fine judgments achieved by service <X>.
- * `ndcgb<X>` nDCG@5 score with Broad judgments achieved by service <X>.
- * `ndcgf<X>` nDCG@5 score with Fine judgments achieved by service <X>.
+ * `dNX` ID of the `N`-th document retrieved by service `X`.
+ * `bNX` Broad score given to the `N`-th document retrieved by service `X`.
+ * `fNX` Fine score given to the `N`-th document retrieved by service `X`.
+ * `agbX` AG@5 score with Broad judgments achieved by service `X`.
+ * `agfX` AG@5 score with Fine judgments achieved by service `X`.
+ * `ndcgbX` nDCG@5 score with Broad judgments achieved by service `X`.
+ * `ndcgfX` nDCG@5 score with Fine judgments achieved by service `X`.
  * `dagb` ΔAG@5 with Broad judgments.
  * `dagf` ΔAG@5 with Fine judgments.
  * `dndcgb` ΔnDCG@5 with Broad judgments.
