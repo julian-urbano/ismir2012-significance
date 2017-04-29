@@ -1,6 +1,6 @@
 This archive contains the data gathered for the following paper:
 
- * J. Urbano, S. Downie, B. McFee and M. Schedl, "[How Significant is Statistically Significant? The case of Audio Music Similarity and Retrieval](http://julian-urbano.info/wp-content/uploads/041-how-significant-statistically-significant-case-audio-music-similarity-retrieval.pdf)", *International Society for Music Information Retrieval Conference*, 2012.
+ * J. Urbano, S. Downie, B. McFee and M. Schedl, "[How Significant is Statistically Significant? The case of Audio Music Similarity and Retrieval](http://julian-urbano.info/files/publications/041-how-significant-statistically-significant-case-audio-music-similarity-retrieval.pdf)", *International Society for Music Information Retrieval Conference*, 2012.
 
 A [single ZIP file](https://github.com/julian-urbano/ismir2012-significance/archive/master.zip) can be downloaded as well.
 
